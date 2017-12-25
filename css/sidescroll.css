@@ -75,80 +75,8 @@ html, body {
 /********************************************************/
 /*                    IMG WRAP                   */
 /********************************************************/
-.surroundContainer {
-  height: 100%; /*height of entire page */
-  background-image: url(img/bw5.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  overflow: auto; /* */
-  white-space:nowrap;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 1200px;
-}
 
 /* hPage belongs to above containter .surroundContainer| which makes it 100%
 of parent container */
-.hPage {
-  display: inline-block; /* almost does what a float does. still block level but also stacked to the right */
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 1200px;
-}
-
-.hp1 {
-  background-image: url(img/bw5.jpg);
-}
-.hp2 {
-  background-image: url(img/bw2.jpg);
-}
-.hp3 {
-  background-image: url(img/bw3.jpg);
-}
-.hp4 {
-  background-image: url(img/bw4.jpg);
-}
-
-.hPage2 {
-  display: inline-block; /* almost does what a float does. still block level but also stacked to the right */
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  background-image: url(img/bw2.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.hPage3 {
-  display: inline-block; /* almost does what a float does. still block level but also stacked to the right */
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  background-image: url(img/nightandday.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-.hPage4 {
-  display: inline-block; /* almost does what a float does. still block level but also stacked to the right */
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  background-image: url(img/StreetGleen.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
 }
