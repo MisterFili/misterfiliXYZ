@@ -10,7 +10,7 @@ body {
 
 
 body {
-  background-color: black;
+  background-image: url(img/splashimg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -24,7 +24,7 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 h1{
@@ -114,24 +114,5 @@ h1{
 /*
 MAING BLOW
 */
-.blok1 { 
-    /* The image used */
-    background-image: url("img/rvafire.jpg");
-
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.blok2 {
-  height: 100%;
-  background-image: url(img/rvafire.jpg);
-  background-position: center bottom;
-  background-size: cover;  
-}
 
   /*! display: inline-block;  box !*/
